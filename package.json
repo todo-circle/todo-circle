@@ -1,15 +1,15 @@
 {
   "name": "todo-circle",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@4.0.2",
   "workspaces": [
     "packages/*/*"
   ],
   "devDependencies": {
-    "@types/eslint": "^8",
+    "@types/eslint": "^8.56.2",
     "@types/prettier": "^3",
-    "eslint": "^8.46.0",
-    "prettier": "^3.0.1",
-    "typescript": "^5.1.6"
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
   },
   "scripts": {
     "api": "yarn workspace api",
